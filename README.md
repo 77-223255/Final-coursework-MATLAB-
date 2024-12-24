@@ -18,6 +18,14 @@ FM源于广播，因为天线长度有限，不能直接发送或接收低频信
 将以上文字转化为公式即为(假设都为正弦波)
 y = A sin(wt + A' sin(w't))
 
-而Dr.John Chowning
+而FM合成器的基本原理就是如此
+而关于FM如何调制出无穷的音色可阅读chowing的论文中负频率和贝叶斯函数的介绍
+The Synthesis of Complex Audio Spectra by Meansof Frequency Modulation by JOHN M. CHOWNING
+值得一提的是chowing在1967年发明了这项技术，其本人还是一名作曲家
+
+## YAMAHA的创新
+chowing于1973年将这项技术授权给了yamaha
+在1983年yamaha 推出了DX 7/9，几乎灭绝了当时的模拟合成器，成为数字合成器
+
 
 
