@@ -26,7 +26,7 @@ The Synthesis of Complex Audio Spectra by Meansof Frequency Modulation by JOHN M
 ### YAMAHA的创新
 chowing于1973年将这项技术授权给了yamaha
 
-在1983年yamaha 推出了DX 7，几乎灭绝了当时的模拟合成器。
+在1983年yamaha 推出了DX 7
 
 https://mmontag.github.io/dx7-synth-js/  (yamahadx7的网页版复刻)
 ![image](image/DX7.png)
