@@ -32,7 +32,15 @@ https://mmontag.github.io/dx7-synth-js/  (yamahadx7的网页版复刻)
 
 ## 代码分析
 ### FM_synthesizer
-设定了
+1. 设定了振荡器的基本属性Level Frequency
+2. 设定了generatewave函数用于生成符号表达式
+### FMSynthesizerGUI
+1. 绘制了基本的软件界面
+2. 编写了文字转化为算法的函数change，基本思路是通过递归来进行转化。结合generatewave函数可实现任意的算法设计
+    举例
+3. 
+
+
 
 ## 缺陷
 1. 代码运行效率过低
