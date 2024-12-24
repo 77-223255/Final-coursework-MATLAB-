@@ -1,5 +1,6 @@
 # MATLAB - FMSynthesizer
 一个基于FM合成原理模仿YAMAHA DX7/9 通过MATLAB GUI语言实现的 声音合成器(默认4个振荡器)
+![image](image/MINE.png)
 ## 目的
 1. 熟悉FM合成基本原理
 2. 实现振荡器与调制器的任意算法组合(DX 7/9 分别只有 32/8 种算法可选，且不能控制振荡器与调制器总数)
@@ -20,6 +21,7 @@ y = A sin(wt + A' sin(w't))
 The Synthesis of Complex Audio Spectra by Meansof Frequency Modulation by JOHN M. CHOWNING
 
 值得一提的是chowing在1967年发明了这项技术，其本人还是一名作曲家
+![image](image/440px-Chowning.jpg)
 
 ### YAMAHA的创新
 chowing于1973年将这项技术授权给了yamaha
@@ -27,8 +29,10 @@ chowing于1973年将这项技术授权给了yamaha
 在1983年yamaha 推出了DX 7，几乎灭绝了当时的模拟合成器。
 
 https://mmontag.github.io/dx7-synth-js/  (yamahadx7的网页版复刻)
+![image](image/DX7.png)
 
 除了应用过去的ADSR包络以及chowing的FM合成技术，yamaha还提供了对于振荡器于调制器排列组合的32种算法，创造了更加丰富的声音
+![image](image/algorithms.jpg)
 
 ## 代码分析
 ### FM_synthesizer
@@ -39,6 +43,7 @@ https://mmontag.github.io/dx7-synth-js/  (yamahadx7的网页版复刻)
 2. 编写了文字转化为算法表达式的函数change，基本思路是通过递归来进行转化。结合generatewave函数可实现任意的算法设计
 
 举例1(2(3(3(0))))+4(0)可表示下图算法
+![image](image/1(2(3(3(0))))+4(0).png)
 
 3. 编写了generateWaveformData函数，将change函数生成的表达式转化为具体的音频信号
 4. 编写了各个按钮与输入框的回调函数
