@@ -57,6 +57,8 @@ https://mmontag.github.io/dx7-synth-js/  (yamahadx7的网页版复刻)
 1. 代码运行效率过低
 2. 缺少ADSR包络以及MIDI信号输入
 3. 振荡器目前只能输出正弦波
+## 运行
+将文件下载到本地，在MATLAB中打开两个m文件，将两个文件添加到执行路径，运行FMSynthesizerGUI.m文件
 
 ## 参考
 1. The Synthesis of Complex Audio Spectra by Meansof Frequency Modulation by JOHN M. CHOWNING
