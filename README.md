@@ -1,5 +1,5 @@
 # MATLAB - FMSynthesizer
-一个基于FM合成原理模仿YAMAHA DX7/9 通过MATLAB GUI语言实现的 声音合成器(默认4个振荡器)
+一个基于FM合成原理模仿YAMAHA DX7/9 通过 MATLAB 实现的 声音合成器 (默认4个振荡器)
 ![image](image/MINE.png)
 ## 目的
 1. 熟悉FM合成基本原理
